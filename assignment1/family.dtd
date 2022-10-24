@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT family_head (child*,partner?)>
+<!ATTLIST family_head
+    name CDATA #REQUIRED
+    age CDATA #REQUIRED
+    job CDATA #REQUIRED
+>
+<!ELEMENT child (child*,partner?)>
+<!ATTLIST child
+    name CDATA #REQUIRED
+    age CDATA #REQUIRED
+    job CDATA #REQUIRED
+>
+<!ELEMENT partner EMPTY>
+<!ATTLIST partner
+    name CDATA #REQUIRED
+    age CDATA #REQUIRED
+    job CDATA #REQUIRED
+>

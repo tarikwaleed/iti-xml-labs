@@ -8,7 +8,19 @@
 
         <course_result course_name="swe" course_grade="A"></course_result>
         <address gov="assuit" street="hilali" zip="89084"></address>
-
     </trainee>
-
+    <trainee name="ali" age="omar" group="group1">
+        <phone number="0108976589" />
+        <course_result course_name="abc" course_grade="A" />
+        <course_result course_name="xyz" course_grade="B" />
+        <course_result course_name="fav" course_grade="C" />
+        <address gov="assuit" street="galaa" zip="89439" />
+    </trainee>
+    <trainee name="ahmad" age="mohamed">
+        <phone number="0108976578" />
+        <course_result course_name="abc" course_grade="A" />
+        <course_result course_name="xyz" course_grade="B" />
+        <course_result course_name="fav" course_grade="C" />
+        <address gov="assuit" street="galaa" zip="89439" />
+    </trainee>
 </trainingaffairs>

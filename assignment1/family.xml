@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE family_head SYSTEM "family.dtd">
+<family_head name="zaki" age="80" job="Merchant">
+    <child name="mostafa" age="70" job="Accountant">
+        <child name="fasd" age="12" job="fsds"></child>
+        <partner name="sara" age="60" job="engineer" />
+    </child>
+    <child name="salah" age="60" job="Engineer"></child>
+    <partner name="asd" age="50" job="engineer"></partner>
+</family_head>
