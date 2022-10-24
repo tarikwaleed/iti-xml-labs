@@ -1,0 +1,8 @@
+{
+    "xml.fileAssociations": [
+        {
+            "pattern": "**/trainees.xml",
+            "systemId": "training_affairs.dtd"
+        }
+    ]
+}

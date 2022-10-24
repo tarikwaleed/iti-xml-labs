@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE trainingaffairs SYSTEM "training_affairs.dtd">
+<trainingaffairs>
+    <trainee name="tarik" age="27" group="group1">
+        <phone number="01065590159"></phone>
+        <phone number="01153905279"></phone>
+        <course_result course_name="xml" course_grade="B"></course_result>
+
+        <course_result course_name="swe" course_grade="A"></course_result>
+        <address gov="assuit" street="hilali" zip="89084"></address>
+
+    </trainee>
+
+</trainingaffairs>
