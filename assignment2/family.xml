@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="D:\ITI\Courses\XML\Students\Day 3\Chrestena\ass4 (1).xsl"?>
+<family>
+	<grandfather>
+		Ibrahim
+		<father job="Engineer">
+			<mother>mona</mother>
+			<son age="21" sport="football">mohamed</son>
+			<daughter age="23" job="ITI student">ghada</daughter>
+		</father>
+		<aunt sons="2">layla</aunt>
+		<uncle>Alaa</uncle>
+	</grandfather>
+</family>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<x:schema xmlns:x="http://www.w3.org/2001/XMLSchema">
+    <x:element name="family">
+        <x:complexType>
+            <x:sequence>
+                <x:element name="grandfather" type="grandfatherType"></x:element>
+            </x:sequence>
+        </x:complexType>
+    </x:element>
+
+    <x:complexType name="grandfatherType" mixed="true">
+        <x:sequence>
+            <x:element name="father" type="fatherType" minOccurs="1" maxOccurs="unbounded"></x:element>
+            <x:element name="aunt" type="auntType" minOccurs="1" maxOccurs="unbounded"></x:element>
+            <x:element name="uncle" type="uncleType" minOccurs="1" maxOccurs="unbounded"></x:element>
+        </x:sequence>
+    </x:complexType>
+
+    <x:complexType name="fatherType" mixed="true">
+        <x:sequence>
+            <x:element name="mother" type="x:string"></x:element>
+            <x:element name="son" type="sonType"></x:element>
+            <x:element name="daughter" type="daughterType"></x:element>
+        </x:sequence>
+        <x:attribute name="job" type="x:string"></x:attribute>
+    </x:complexType>
+
+    <x:complexType name="auntType" mixed="true">
+        <x:attribute name="sons" type="x:string"></x:attribute>
+    </x:complexType>
+
+    <x:complexType name="uncleType" mixed="true">
+        <x:attribute name="sons" type="x:string"></x:attribute>
+    </x:complexType>
+
+    <x:complexType name="sonType" mixed="true">
+        <x:attribute name="age" type="x:string"></x:attribute>
+        <x:attribute name="sport" type="sportsType"></x:attribute>
+    </x:complexType>
+    <x:complexType name="daughterType" mixed="true">
+        <x:attribute name="age" type="x:string"></x:attribute>
+        <x:attribute name="job" type="x:string"></x:attribute>
+    </x:complexType>
+    <x:simpleType name="sportsType">
+        <x:restriction base="x:string">
+            <x:enumeration value="football"></x:enumeration>
+            <x:enumeration value="swimming"></x:enumeration>
+            <x:enumeration value="basketball"></x:enumeration>
+        </x:restriction>
+    </x:simpleType>
+</x:schema>

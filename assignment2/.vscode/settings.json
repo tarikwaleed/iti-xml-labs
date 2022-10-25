@@ -1,0 +1,8 @@
+{
+    "xml.fileAssociations": [
+        {
+            "pattern": "**/family.xml",
+            "systemId": "family.xsd"
+        }
+    ]
+}
